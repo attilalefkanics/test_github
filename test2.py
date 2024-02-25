@@ -27,16 +27,16 @@ class class_in:
 
 
 class Purchase_Order:
-    def __init__(self, bemenet: class_in) -> None:
-        self.bemenet = bemenet
+    def __init__(self, input: class_in) -> None:
+        self.input = input
 
 
 mat1 = material(1, "name ")
 
-po1_bemenet = class_in()
+po1_input = class_in()
 class_in.name = "Attila"
 class_in.material = mat1
 
-po1 = Purchase_Order(po1_bemenet)
+po1 = Purchase_Order(po1_input)
 
 print(po1.bemenet.name)

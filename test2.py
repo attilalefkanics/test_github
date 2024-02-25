@@ -1,9 +1,8 @@
 from dataclasses import dataclass
 
-# Class material
-
 
 class material:
+    # Class material
     def __init__(self, id, name) -> None:
         self.id = id
         self.name = name
